@@ -8,11 +8,11 @@ export default function FunFacts() {
   const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
 
   const funFacts = [
-    "Have played many competitive sports since i was 8 years old with soccer being my favourite",
+    "Have played many competitive sports since i was 8 years old with soccer being my favourite (competed at a national level)",
     "Won ROPSSAA (regional) championship in volleyball and rugby, highschool athlete of the year award, Soccer & Volleyball MVP/captain, basketball DPOY",
-    "Started a business in high school selling exclusive streetwear; gained 5k+ Instagram followers and generated 5 figure revenue, working with high-profile clients like pro soccer player Jahkeele Marshall-Rutty and influencer Alessya Farrugia",
+    "Generated 5 figure revenue in high school starting a business selling exclusive streetwear; gained 5k+ Instagram followers and worked with high-profile clients like pro soccer player Jahkeele Marshall-Rutty and influencer Alessya Farrugia",
     "I LOVE to travel - adventured in 30+ countries",
-    "I was born in Connecticut",
+    "I was born in Connecticut, but currently located in Toronto",
     "Currently coaching a competitive volleyball team",
   ];
 
