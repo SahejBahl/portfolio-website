@@ -1,4 +1,4 @@
-# 🚀 Sahej Bahl's Portfolio Website
+# Sahej Bahl's Portfolio Website
 
 Welcome to my personal portfolio website! This is where I showcase my work, projects, and a bit about myself.
 
@@ -6,66 +6,6 @@ Welcome to my personal portfolio website! This is where I showcase my work, proj
 
 ---
 
-## 💡 About This Project
-
-This is my personal portfolio website built with modern web technologies. I designed it to be clean, minimal, and easy to navigate - reflecting my style and personality.
-
-### ✨ Features
-
-- 🌓 **Dark/Light Mode Toggle** - Easy on the eyes, day or night
-- ✨ **Custom Cursor Glow Effect** - Subtle, modern interaction
-- 🎨 **Smooth Animations** - Polished hover effects and transitions
-- 📱 **Fully Responsive** - Looks great on all devices
-- ⚡ **Lightning Fast** - Built with Vite for optimal performance
-- 🎯 **Clean Design** - Minimalist aesthetic with focus on content
-
----
-
-## 🛠️ Built With
-
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS v4** - Styling
-- **Wouter** - Lightweight routing
-- **Lucide React** - Icons
-
----
-
-## 🚦 Getting Started
-
-Want to run this locally? Here's how:
-
-### Prerequisites
-
-- Node.js 18+ and npm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone [your-repo-url]
-
-# Navigate to the project directory
-cd portfolio-website
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser 🎉
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
----
 
 ## 📂 Project Structure
 
@@ -93,24 +33,7 @@ npm run preview
 
 ---
 
-## 📄 License & Usage
-
-### 👀 Feel Free to Learn!
-
-You're welcome to **use this as inspiration** or a **learning resource** for your own portfolio. Check out the code, see how things work, and apply the concepts to your own projects!
-
-### 🙏 Please Don't Copy Directly
-
-I put a lot of thought and effort into this design and my personal content. Please don't just copy it wholesale and claim it as your own.
-
-### ⭐ If You Do Use It...
-
-If you find this useful and decide to use significant portions of the code or design:
-- **Please give credit** - A link back to this repo or my [GitHub profile](https://github.com/SahejBahl) would be appreciated!
-- **Make it your own** - Customize the design, colors, and layout to reflect your personality
-- **Update the content** - Make sure all text, images, and links are yours
-
----
+You're welcome to **use this as inspiration** or a **starting point** for your own portfolio. Don't directly copy, but if you do, give me credit :)
 
 ## 🤝 Connect With Me
 
@@ -122,11 +45,6 @@ If you find this useful and decide to use significant portions of the code or de
 
 ---
 
-## 🙌 Acknowledgments
-
-Built with passion and lots of coffee ☕
-
----
 
 **Made with ❤️ by Sahej Bahl**
 
