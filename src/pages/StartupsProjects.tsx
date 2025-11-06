@@ -83,10 +83,11 @@ export default function StartupsProjects() {
               <div>
                 {/* Project Content */}
                 <div>
-                  <h2 className="text-base font-bold mb-2 text-foreground">
+                  <h2 className="text-base font-bold mb-3 text-foreground">
                     {project.title}
                   </h2>
-                  <p className="text-sm text-foreground">
+                  <p className="text-sm text-foreground flex items-start gap-2">
+                    <span className="text-muted-foreground">→</span>
                     {project.description}
                   </p>
                 </div>

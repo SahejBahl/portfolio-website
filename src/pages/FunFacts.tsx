@@ -1,9 +1,11 @@
 import { Link } from "wouter";
-import { Moon } from "lucide-react";
+import { Moon, X } from "lucide-react";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useState } from "react";
 
 export default function FunFacts() {
   const { toggleTheme } = useTheme();
+  const [selectedPhoto, setSelectedPhoto] = useState<string | null>(null);
 
   const funFacts = [
     "Have played many competitive sports since i was 8 years old with soccer being my favourite",
@@ -73,7 +75,11 @@ export default function FunFacts() {
           <h2 className="text-2xl font-bold mb-6">Photos</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {photos.map((photo, index) => (
-              <div key={index} className="aspect-square overflow-hidden rounded-lg bg-muted">
+              <div 
+                key={index} 
+                className="aspect-square overflow-hidden rounded-lg bg-muted cursor-pointer"
+                onClick={() => setSelectedPhoto(photo)}
+              >
                 <img
                   src={photo}
                   alt={`Gallery photo ${index + 1}`}
@@ -83,6 +89,28 @@ export default function FunFacts() {
             ))}
           </div>
         </div>
+
+        {/* Photo Preview Modal */}
+        {selectedPhoto && (
+          <div 
+            className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
+            onClick={() => setSelectedPhoto(null)}
+          >
+            <button
+              onClick={() => setSelectedPhoto(null)}
+              className="absolute top-4 right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors text-white"
+              aria-label="Close preview"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <img
+              src={selectedPhoto}
+              alt="Photo preview"
+              className="max-w-full max-h-[90vh] object-contain rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        )}
 
         {/* Footer */}
         <footer className="mt-32 pt-8 border-t border-border">
