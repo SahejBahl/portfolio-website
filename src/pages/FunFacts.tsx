@@ -12,7 +12,7 @@ export default function FunFacts() {
     "Won ROPSSAA (regional) championship in volleyball and rugby, highschool athlete of the year award, Soccer & Volleyball MVP/captain, basketball DPOY",
     "Generated 5 figure revenue in high school starting a business selling exclusive streetwear; gained 5k+ Instagram followers and worked with high-profile clients like pro soccer player Jahkeele Marshall-Rutty and influencer Alessya Farrugia",
     "I LOVE to travel - adventured in 30+ countries",
-    "I was born in Connecticut, but currently located in Toronto",
+    "I was born in Connecticut (USA), but currently located in Toronto (Canada)",
     "Currently coaching a competitive volleyball team",
   ];
 

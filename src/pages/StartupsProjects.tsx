@@ -31,7 +31,7 @@ export default function StartupsProjects() {
       image: "/5.webp",
     },
     {
-      title: "MotiveMattes",
+      title: "MotiveMates",
       description: "Developed a productivity app for students, leading backend development, backed by DMZ",
       url: "https://dmz.torontomu.ca/",
       image: "/2.webp",
@@ -72,28 +72,38 @@ export default function StartupsProjects() {
 
         {/* Project cards with images */}
         <div className="space-y-6">
-          {projects.map((project, index) => (
-            <a
-              key={index}
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block p-8 rounded-2xl bg-card border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer"
-            >
-              <div>
-                {/* Project Content */}
+          {projects.map((project, index) => {
+            const isClickable = project.url && project.url !== "#";
+            const Wrapper = isClickable ? "a" : "div";
+            const wrapperProps = isClickable
+              ? {
+                  href: project.url,
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                }
+              : {};
+
+            return (
+              <Wrapper
+                key={index}
+                {...wrapperProps}
+                className="block p-8 rounded-2xl bg-card border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1"
+              >
                 <div>
-                  <h2 className="text-base font-bold mb-3 text-foreground">
-                    {project.title}
-                  </h2>
-                  <p className="text-sm text-foreground flex items-start gap-2">
-                    <span className="text-muted-foreground">→</span>
-                    {project.description}
-                  </p>
+                  {/* Project Content */}
+                  <div>
+                    <h2 className="text-base font-bold mb-3 text-foreground">
+                      {project.title}
+                    </h2>
+                    <p className="text-sm text-foreground flex items-start gap-2">
+                      <span className="text-muted-foreground">→</span>
+                      {project.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </a>
-          ))}
+              </Wrapper>
+            );
+          })}
         </div>
 
         {/* Footer */}
