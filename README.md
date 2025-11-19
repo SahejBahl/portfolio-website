@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This is where I showcase my work, projects, and a bit about myself.
 
-**Live at:** [Your deployed URL here]
+**Live at:** https://sahejbahl.ca/
 
 ---
 
