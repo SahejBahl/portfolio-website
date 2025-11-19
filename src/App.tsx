@@ -4,6 +4,7 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import CursorGlow from "./components/CursorGlow";
+import ParticleBackground from "./components/ParticleBackground";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
@@ -37,6 +38,7 @@ function App() {
         switchable
       >
         <TooltipProvider>
+          <ParticleBackground />
           <CursorGlow />
           <Toaster />
           <Router />
