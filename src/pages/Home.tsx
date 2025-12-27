@@ -6,8 +6,8 @@ export default function Home() {
   const { toggleTheme } = useTheme();
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <div className="max-w-3xl mx-auto px-6 py-16">
+    <div className="h-screen overflow-hidden bg-background text-foreground">
+      <div className="max-w-3xl mx-auto px-6 py-16 h-full overflow-hidden">
         {/* Dark mode toggle */}
         <button
           onClick={toggleTheme}
@@ -42,10 +42,10 @@ export default function Home() {
             I study Computer Engineering at the University of Waterloo.
           </p>
           <p>
-            Currently, I'm working as a Software + Product Engineering intern at <a href="https://rootly.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Rootly AI (YC S21)</a>, doing open-source AI research with <a href="https://cohere.com/research" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Cohere Labs</a> and building healthcare-focused LLMs at <a href="https://www.hostalky.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Hostalky</a>, building <a href="https://hitsmart.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">HitSmart</a>, and creating <a href="https://www.instagram.com/sahej.eng" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">content</a>.
+            Currently, I'm working as a Software + Product Engineering intern at <a href="https://rootly.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Rootly AI (YC S21)</a>, doing open-source AI research with <a href="https://cohere.com/research" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Cohere Labs</a> and building healthcare-focused LLMs at <a href="https://www.hostalky.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">Hostalky</a>.
           </p>
           <p>
-            My journey started when I was 13, I co-founded EnvironAI (backed by <a href="https://dmz.torontomu.ca/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">DMZ</a>), a waste-sorting app using AI for item classification, integrated with a chatbot and making recycling easier. That project made me fall in love with startups and building, and since then, I've worked on or for 9 startups, shipping real products across AI, health, and education.
+            My journey started when I was 13, I co-founded EnvironAI (backed by <a href="https://dmz.torontomu.ca/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">DMZ</a>), a waste-sorting app using AI for item classification, integrated with a chatbot and making recycling easier. That project made me fall in love with startups and building, and since then, I've worked on/with 9 startups, shipped across AI, health, and education, drove millions in ARR through product and distribution, and learned how to sell and grow with unfair leverage.
           </p>
           <p>
             Outside of work, I enjoy staying active through sports, hiking, and the gym - and I'm always planning my next adventure, having traveled to over 30 countries (and counting).
