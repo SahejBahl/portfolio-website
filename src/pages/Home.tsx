@@ -37,7 +37,7 @@ export default function Home() {
           </Link>
         </nav>
            {/* Introduction */}
-        <div className="space-y-6 text-base leading-relaxed mb-32">
+        <div className="space-y-6 text-base leading-relaxed mb-16">
           <p>
             I study Computer Engineering at the University of Waterloo.
           </p>
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="mt-32 pt-8 border-t border-border">
+        <footer className="mt-12 pt-8 border-t border-border">
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="mailto:s7bahl@uwaterloo.ca" className="hover:text-foreground transition-colors">
               email
