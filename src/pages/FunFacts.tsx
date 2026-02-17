@@ -19,7 +19,7 @@ export default function FunFacts() {
   const photos = [
     "/DF53DD5F-9D66-4E14-A03E-BF76E3D83AD8.webp",
     "/IMG_2666.webp",
-    "/IMG_5935.webp",
+    "/speaking_event.webp",
     "/IMG_5968.webp",
     "/IMG_0328.webp",
     "/IMG_3220.webp",
