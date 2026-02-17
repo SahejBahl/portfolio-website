@@ -7,9 +7,17 @@ export default function Work() {
 
   const experiences = [
     {
+      company: "Clover Labs",
+      year: "2026",
+      title: "Software Engineer",
+      location: "Toronto, Ontario, Canada",
+      description: "Neo backed AI growth agents",
+      url: "https://cloverlabs.ai/",
+    },
+    {
       company: "Rootly AI (YC S21)",
       year: "2025",
-      title: "Software + Product Engineer Intern",
+      title: "SWE Intern",
       location: "Toronto, Ontario, Canada",
       description: "shipping features for Rootly's AI-powered incident management platform for enterprise clients like NVIDIA, LinkedIn, and Canva",
       url: "https://rootly.com/",
